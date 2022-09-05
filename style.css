@@ -1,0 +1,54 @@
+* {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #00ADB5;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.inputSearch {
+    display: flex;
+    justify-content: center;
+}
+
+#searh {
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    color: #222831;
+    font-size: 20px;
+    background-color: #EEEEEE;
+    border: 2px solid #00ADB5;
+    border-radius: 5px;
+    outline: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recipes {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+}
+
+a {
+    color: #222831;
+    text-decoration: none;
+    font-size: 20px;
+}
